@@ -4,4 +4,4 @@
 
 ## Практики
 
-1. [Определение характеристик](homeworks/01/task.md)
+1. Определение характеристик: [task](homeworks/01/docs/task.md) [report](homeworks/01/docs/report.md)
