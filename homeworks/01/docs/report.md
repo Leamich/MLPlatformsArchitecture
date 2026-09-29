@@ -53,7 +53,7 @@ Number of devices                                 1
 ## Скомпилированные программы
 
 ```
-$cmake --build --preset linux-debug --target cpu_probe && ./build/linux-debug/homeworks/01/cpu_probe
+$ cmake --build --preset linux-debug --target cpu_probe && ./build/linux-debug/homeworks/01/cpu_probe
 
 [100%] Built target cpu_probe
 
