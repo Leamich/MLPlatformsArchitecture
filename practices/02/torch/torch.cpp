@@ -28,7 +28,7 @@ int main() {
 
     torch::optim::SGD optimizer(net->parameters(), /*lr=*/0.01);
 
-    for (size_t epoch = 1; epoch <= 2; ++epoch) {
+    for (size_t epoch = 1; epoch <= 10; ++epoch) {
         size_t batch_index = 0;
         for (auto& batch : *data_loader) {
             optimizer.zero_grad();
