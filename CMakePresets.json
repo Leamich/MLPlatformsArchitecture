@@ -18,7 +18,10 @@
       "name": "linux-debug",
       "inherits": "base",
       "generator": "Unix Makefiles",
-      "cacheVariables": { "CMAKE_BUILD_TYPE": "Debug" },
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "FETCHCONTENT_BASE_DIR": "$env{HOME}/.cache/fetchcontent"
+      },
       "condition": { "type": "equals", "lhs": "${hostSystemName}", "rhs": "Linux" }
     }
   ],

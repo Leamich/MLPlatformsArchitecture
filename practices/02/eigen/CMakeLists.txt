@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 4.4)
+cmake_minimum_required(VERSION 4.2)
 project(eigen-test)
 
 find_package (Eigen3 3.3 REQUIRED NO_MODULE)

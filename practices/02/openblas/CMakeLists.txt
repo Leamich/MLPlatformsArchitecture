@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 4.4)
+cmake_minimum_required(VERSION 4.2)
 project(openblas-test)
 
 set(BLA_VENDOR OpenBLAS)
