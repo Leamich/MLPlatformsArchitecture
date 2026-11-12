@@ -6,3 +6,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_subdirectory(practices/01)
 add_subdirectory(practices/02)
+add_subdirectory(practices/03)

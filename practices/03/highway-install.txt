@@ -1,0 +1,10 @@
+#!/bin/bash
+
+git clone https://github.com/google/highway.git /highway
+cd /highway
+mkdir build
+cd build
+cmake -DHWY_ENABLE_EXAMPLES=OFF -DHWY_ENABLE_TESTS=OFF -DCMAKE_BUILD_TYPE=Release ..
+cmake --build . --target install --parallel
+rm -rf /highway
+        
